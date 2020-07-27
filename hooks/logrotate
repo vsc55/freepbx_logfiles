@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sed -i "/full/a { \n missingok \n rotate 7 \n dateext \n create 0640 asterisk asterisk \n postrotate \n /usr/sbin/asterisk -rx 'logger reload' > /dev/null 2> /dev/null \n endscript \n}" /etc/logrotate.d/asterisk
