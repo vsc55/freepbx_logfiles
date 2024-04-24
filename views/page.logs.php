@@ -1,5 +1,5 @@
 <div class="container-fluid">
-	<h1><?php echo _('Asterisk Log Files')?></h1>
+	<h1><?php echo _('System Log Files')?></h1>
 	<div class = "display full-border">
 
 		<div class="row logfiles_header">
