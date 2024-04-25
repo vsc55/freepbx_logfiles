@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX - módulo logfiles module spanish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-22 02:30-0400\n"
+"POT-Creation-Date: 2024-04-25 00:05-0400\n"
 "PO-Revision-Date: 2016-12-09 08:26+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/logfiles/"
@@ -71,11 +71,11 @@ msgstr ""
 msgid "Are you confirming that you want to remove this file (%s)?"
 msgstr ""
 
-#: views/page.logs.php:2
-msgid "Asterisk Log Files"
-msgstr "Archivos de bitácora de Asterisk"
+#: logfiles.i18n.php:12
+msgid "Asterisk Logfile Settings"
+msgstr "Configuración del Logfile de Asterisk"
 
-#: logfiles.i18n.php:4 logfiles.i18n.php:10
+#: logfiles.i18n.php:4
 msgid "Asterisk Logfiles"
 msgstr "Archivos de bitácora de Asterisk"
 
@@ -472,8 +472,12 @@ msgstr ""
 msgid "Successful Update"
 msgstr ""
 
-#: logfiles.i18n.php:12
-msgid "System Logfile Settings"
+#: views/page.logs.php:2
+msgid "System Log Files"
+msgstr ""
+
+#: logfiles.i18n.php:10
+msgid "System Logfiles"
 msgstr ""
 
 #: logfiles.i18n.php:8
@@ -565,8 +569,8 @@ msgstr "Si"
 msgid "appendhostname is set to: Yes."
 msgstr ""
 
-#~ msgid "Asterisk Logfile Settings"
-#~ msgstr "Configuración del Logfile de Asterisk"
+#~ msgid "Asterisk Log Files"
+#~ msgstr "Archivos de bitácora de Asterisk"
 
 #~ msgid "Add Log"
 #~ msgstr "Añadir registro"
